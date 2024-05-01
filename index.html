@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rento</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="Assets/Favicon.jpg" type="image/x-icon">
+
+    <!-- Add CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Adding Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Add Fontawesome Icons -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/bcff664381.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+ 
+    <!-- Header Start-->
+    <header class="container" id="home">
+       
+        
+        <nav class="nav-bar">
+            <h2>RENTO</h2>
+             <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cars">Cars</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#review">Review</a></li>
+              <div class="fa-solid fa-bars" id="menu-icon" onclick="ShowNavBar()" ></div>
+
+                <div class="btns">
+                    <a href="" class="signup">Sign Up</a>
+                   <a href="" class="signin">Sing In</a>
+                 </div>
+        </nav>
+        
+<!-- Side-Nav -->
+        <nav class="side-navbar">
+            <ul>
+                <i class="fa-solid fa-xmark" id="menu-icon2" onclick="CloseNavBar()"></i>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cars">Cars</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#review">Review</a></li>
+               
+             </ul>
+         </nav>        
+      
+        <div class="text">
+            <h2>Are You Looking For <br>Rent A Car?</h2>
+            <p>We are here to save your money and make your journey comfortable with our cars.</p>
+            <div class="app-stores">
+                <img src="Assets/App store.png" alt="">
+                <img src="Assets/Google play store.png" alt="">
+            </div>
+        </div>
+       
+        <div class="form-container">
+            <form action="">
+                <div class="input-box">
+                    <span>Cars</span>
+                    <input type="text" name="" id="" placeholder="Enter Car Name ">
+                </div>
+                <div class="input-box">
+                    <span>Location</span>
+                    <input type="search" name="" id="" placeholder="Search Places">
+                </div>
+                <div class="input-box">
+                    <span>Pick-Up Date</span>
+                    <input type="date" name="" id="">
+                </div>
+                <div class="input-box">
+                    <span>Return Date</span>
+                    <input type="date" name="" id="">
+                </div>
+                <input type="submit" name="" id="" class="form-btn">
+            </form>
+        </div>
+    </header>
+    
+    <!-- Header End-->
+
+    <!-- How Its Work Start -->
+     <section class="rent-steps">
+        <div class="heading">
+            <span>How Its Work</span>
+            <h1>Rent Your Car With 3 Easy Steps</h1>
+        </div>
+        <div class="steps-container">
+            <div class="box">
+                <i class="fa-solid fa-user-plus"></i>
+                <h2>Create Profile</h2>
+                <p>Create your profile to track your car location and get more details.</p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-car"></i>
+                <h2>Select Car</h2>
+                <p>Select car which meets your comfort and cost </p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-calendar-days"></i>
+                <h2>Pick-Up Date</h2>
+                <p>Let us know when you want us to pick you up </p>
+            </div>
+        </div>
+     </section>
+    <!-- How Its Work End -->
+
+    <!-- Cars Section Start -->
+    <section class="cars" id="cars">
+        <div class="heading">
+            <span>Cars Collection</span>
+            <h1>Explore Our Top Rated Cars <br> From Top Rated Dealers</h1>
+        </div>
+        <div class="car-container">
+            <!-- Car-01 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Assets/Car-01.jpg" width="640px" height="427px">
+                </div>
+                    <p>2024</p>
+                    <h3>2018 Tata Altroz</h3>
+                    <h2>&#8377;15,00000 | &#8377;10,000 <span>/month</span></h2>
+                    <a href="" class="car-btn">Rent Now</a>
+                
+            </div>
+            <!-- Car-02 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Assets/Car-02.jpg" width="640px" height="427px">
+                </div>
+                    <p>2024</p>
+                    <h3>2012 Skoda Kodiaq</h3>
+                    <h2>&#8377;16,00000 | &#8377;12,000 <span>/month</span></h2>
+                    <a href="" class="car-btn">Rent Now</a>
+                </div>
+            <!-- Car-03 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Assets/Car-03.jpg" width="640px" height="427px">
+                </div>
+                    <p>2024</p>
+                    <h3>2018 Suzuki Baleno</h3>
+                    <h2>&#8377;17,00000 | &#8377;14,000 <span>/month</span></h2>
+                    <a href="" class="car-btn">Rent Now</a>
+            </div>
+            <!-- Car-04 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Assets/Car-04.jpg" width="640px" height="427px">
+                </div>
+                    <p>2024</p>
+                    <h3>2020 Hyundai Solaris</h3>
+                    <h2>&#8377;18,00000 | &#8377;16,000 <span>/month</span></h2>
+                    <a href="" class="car-btn">Rent Now</a>
+                </div>
+            <!-- Car-05 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Assets/Car-05.jpg" width="640px" height="427px">
+                </div>
+                    <p>2024</p>
+                    <h3>2022 Hyundai Solaris</h3>
+                    <h2>&#8377;19,00000 | &#8377;16,500 <span>/month</span></h2>
+                    <a href="" class="car-btn">Rent Now</a>
+                </div>
+            <!-- Car-06 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Assets/Car-06.jpg" width="640px" height="427px">
+                </div>
+                    <p>2024</p>
+                    <h3>2022 Suzuki Celerio</h3>
+                    <h2>&#8377;12,00000 | &#8377;10,000 <span>/month</span></h2>
+                    <a href="" class="car-btn">Rent Now</a>
+             </div>
+        </div>
+    </section>
+    <!-- Cars Section End -->
+
+    <!-- About Section Start -->
+      <section class="about" id="about">
+        <div class="heading">
+            <span>About Us</span>
+            <h1>Who We Are?<br>& What's Our Goal</h1>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="Assets/About.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <span>About Us</span>
+                <p>Save money on hire cars by searching for car hire deals on RENTO. 
+                    RENTO searches for rental car deals on hundreds of car hire sites to 
+                    help you find the cheapest self drive car hire. Whether you are looking for an airport car
+                     hire or just a cheap rental car near you, you can compare discount car hire and find the 
+                     best deals faster at RENTO. RENTO also compares deals for many different car types.
+                      Whether you’re looking for luxury car hire, SUV hire, people carrier hire, 
+                      pickup truck hire, convertible car hire, van hire or minivan hire, 
+                    you’ll find them all on RENTO. </p>
+                    <a href="" class="btn">Learn More</a>
+            </div>
+        </div>
+      </section>
+    <!-- About Section End -->
+
+    <!-- Review Section Start  -->
+       <section class="review" id="review">
+        <div class="heading">
+            <span>Reviews</span>
+            <h1>What's Our Customer Say</h1>
+        </div>
+
+         <div class="reviews-container">
+            <div class="box">
+               <div class="rev-img">
+                <img src="Assets/Customer-1.jpg" >
+               </div>
+               <h2>Suresh Raina</h2>
+               <div class="stars">
+                <i class="fa-solid fa-star" ></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+               </div>
+               <p>Good customer experience and great deals & dealers</p>
+            </div>
+
+            <div class="box">
+                <div class="rev-img">
+                 <img src="Assets/Customer-2.jpg" >
+                </div>
+                <h2>David</h2>
+                <div class="stars">
+                 <i class="fa-solid fa-star" ></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+              <p>Good customer experience and great deals & dealers</p>
+             </div>
+
+             <div class="box">
+                <div class="rev-img">
+                 <img src="Assets/Customer-3.jpg" >
+                </div>
+                <h2>Ram</h2>
+                <div class="stars">
+                 <i class="fa-solid fa-star" ></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>Good customer experience and great deals & dealers</p>
+             </div>
+         </div>
+       </section>
+    <!-- Review Section End -->
+
+    <!-- Newsletter Section Start -->
+    <section class="news-letter">
+        <h2>Subscribe To Our Newsletter</h2>
+        <div class="box">
+            <input type="text" placeholder="Enter Your E-mail Address">
+            <a href="" class="btn">Subscribe</a>
+        </div>
+    </section>
+    <!-- Newsletter Section End -->
+  
+
+    <!-- Footer Start -->
+<footer class="sectio-p1">
+    <div class="col">
+        <img class="logo" src="Assets/Logo.jpg" width="140px" height="40px">
+        <h4>Contact</h4>
+        <p><strong>Address: </strong>06 Chennai Main-Road,Chennai,TamilNadu,India</p>
+        <p><strong>Phone: </strong>+91 22 2333 4444 / (+91) 22 5555 6665 </p>
+        <p><strong>Hours: </strong>10.00 - 7.00, Mon-Sun</p>
+        <div class="social">
+            <h4>Follow Us</h4>
+            <div class="foot-icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+
+<!-- About Coloumn -->
+    <div class="col">
+       <h4 class="alt">About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Condition</a>
+        <a href="#">Contact Us</a>
+    </div>
+<!-- My Account Coloumn -->
+    <div class="col">
+        <h4 class="alt">My Account</h4>
+        <a href="#">Sing In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My wishlist</a>
+        <a href="#">Track My order</a>
+        <a href="#">Help</a>
+    </div>
+    <!-- Install App Coloumn -->
+    <div class="col-install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+            <img src="Assets/App store.png" width="170px" height="48px">
+            <img src="Assets/Google play store.png" width="170px" height="48px">
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="Assets/Payment.png" width="224px" height="32px">
+    </div>
+   <!-- copyright -->
+   <div class="copyright">
+    <p>© 2024, RENTO - Car Rental Website</p>
+   </div>
+</footer>
+<!-- Footer End -->
+    <!-- Add Javascript -->
+    <script src="script.js"></script>
+</body>
+</html>
